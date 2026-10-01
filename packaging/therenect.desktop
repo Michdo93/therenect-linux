@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Therenect
+Comment=Virtual theremin for the Kinect V1
+Exec=therenect
+Icon=audio-x-generic
+Terminal=false
+Categories=AudioVideo;Audio;Music;Education;

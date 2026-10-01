@@ -1,0 +1,5 @@
+# Kinect V1 (Xbox 360 models 1414 and 1473, Kinect for Windows) - USB access without root
+# Motor / Audio / Camera
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02b0|02c2", MODE="0666", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02ad|02bb|02be", MODE="0666", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02ae|02bf", MODE="0666", GROUP="plugdev", TAG+="uaccess"
